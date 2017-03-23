@@ -52,7 +52,7 @@ header .intro-text .skills {
 
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
+    padding-top: 150px;
     padding-bottom: 100px;
   }
   header .intro-text .name {
@@ -60,6 +60,19 @@ header .intro-text .skills {
   }
   header .intro-text .skills {
     font-size: 1.65em;
+  }
+}
+
+@media (max-width: 992px) {
+  header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  header .intro-text .name {
+    font-size: 2em;
+  }
+  header .intro-text .skills {
+    font-size: 1.2em;
   }
 }
 .navbar-custom {
@@ -125,7 +138,7 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 75px 0;
 }
 section h2 {
   margin: 0;
@@ -137,7 +150,7 @@ section.success {
 }
 @media (max-width: 767px) {
   section {
-    padding: 75px 0;
+    padding: 15px 5px;
   }
   section#about{
     margin-left: 13px;
@@ -146,9 +159,6 @@ section.success {
   header.intro-text.skills {
   color: black;
 }
-  section.first {
-    padding-top: 75px;
-  }
 }
 
 #portfolio .portfolio-item {
